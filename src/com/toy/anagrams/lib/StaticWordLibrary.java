@@ -85,7 +85,7 @@ final class StaticWordLibrary extends WordLibrary {
         "vertex",
         "unsigned",
         "traditional"};
-
+// Esta es la lista de palabras correctas
     private static final String[] SCRAMBLED_WORD_LIST = {
         "batsartcoin",
         "maibuguos",
@@ -133,6 +133,7 @@ final class StaticWordLibrary extends WordLibrary {
         "nuisngde",
         "rtdatioialn"
     };
+    // Esta es la lista de palabras a adivinar
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
 
