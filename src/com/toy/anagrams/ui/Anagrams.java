@@ -87,6 +87,7 @@ public class Anagrams extends JFrame {
         scrambledWord.setText(wordLibrary.getScrambledWord(wordIdx));
         pack();
         guessedWord.requestFocusInWindow();
+        // el codigo de la linea superior es el que comprueba si acertaste
         // Center in the screen
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         Dimension frameSize = getSize();
